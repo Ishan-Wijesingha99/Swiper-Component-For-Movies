@@ -1,10 +1,38 @@
+
+body {
+    background-color: black;
+}
+
+/* To customise the arrow colors and design */
+:root {
+    --swiper-theme-color: red
+}
+
+
+#website-title {
+    color: red;
+    text-align: center;
+}
+
+#popular-now {
+    color: white;
+    margin-left: 40px;
+}
+
+
+
 .mySwiper {
-    margin: 40px;
-    padding: 40px;
-    background-color: red;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .netflix img {
     max-width: 100%;
     height: auto;
 }
+
+.swiper-slide:hover {
+    transition: 250ms all;
+    transform: scale(1.2);
+}
+
