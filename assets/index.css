@@ -3,3 +3,8 @@
     padding: 40px;
     background-color: red;
 }
+
+.netflix img {
+    max-width: 100%;
+    height: auto;
+}
